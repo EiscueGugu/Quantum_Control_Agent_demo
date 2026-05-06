@@ -8,7 +8,7 @@
 - **ReAct 智能体** — 基于 LangChain `create_agent`，LLM 自主决定何时调用工具、何时追问用户
 - **5 工具流水线** — define → compile → execute → preprocess → analyze
 - **虚拟仪器** — VirtualVSG / VirtualDAQ / VirtualTrigger 模拟真实硬件
-- **物理模拟** — Rabi 振荡、T1 弛豫、Ramsey 干涉的逼真数据生成
+- **物理模拟** — Rabi 振荡、T1 弛豫、Ramsey 干涉的仿真数据生成
 - **scipy 拟合** — 自动拟合物理模型，计算 R²/RMSE，生成拟合图
 - **RAG 知识检索** — 内置 Chroma 向量库，检索实验原理与故障排查知识
 - **流式输出** — 工具调用步骤实时可见
