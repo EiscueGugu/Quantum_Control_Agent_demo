@@ -1,0 +1,19 @@
+vsg:
+  name: "Virtual VSG"
+  sample_rate_Hz: 2.4e9
+  channels: 2
+  frequency_range_MHz: [100, 12000]
+  amplitude_range_dBm: [-30, 10]
+
+daq:
+  name: "Virtual DAQ"
+  sample_rate_Hz: 1.0e9
+  channels: 4
+  resolution_bits: 14
+  voltage_range_V: [-1.0, 1.0]
+
+trigger:
+  name: "Virtual Trigger"
+  channels: 2
+  pulse_width_ns: 100
+  pulse_amplitude_V: 5.0
